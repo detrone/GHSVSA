@@ -1,0 +1,328 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<title>Garfield HS VSA</title>
+		
+		<meta charset="utf-8">
+		<link rel="icon" type="image/png" href="img/favicon.png">
+	</head>
+	
+	<body>
+		<div class="top">
+			<h1>Vietnamese Student Association</h1>
+			<img id="pfp" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiOfaBAYA8i7UIa-OyxPR8NpsZa_WsYqzzGcMmUQUWxOFc8y-VImfJ4uKOfJzLWhwq2XU&usqp=CAU">
+			<h2>Garfield High School</h2>
+			<p id="about">VSA is a club that aims to bring together students to learn about our history and honor our culture. Although we hope to build a community of students with Vietnamese descent, we welcome anyone interested in our culture to join us!</p>
+			<div id="socials">
+				<a href="https://instagram.com/garfieldvsaclub"><img class="icon" id="insta" height=38px src="img/instagram.png"></a>
+				<a href="mailto:ghsvsaclub@gmail.com"><img class="icon" id="gmail" height=38px src="img/email.png"></a>
+			</div>
+		</div>
+		
+		<div class="middle">
+			<div class="boxes" id="meetings">
+				<h1>We have weekly meetings in Ms. Amador's room. We hangout and talk... and occasionally have snacks and coffee!</h1>
+				<h2>TUESDAY'S AT LUNCH IN ROOM 207</h2>
+			</div>
+			<div class="boxes" id="resources">
+				<h2><b>Vietnamese and AAPI Resources</b></h2>
+				<p>Our linktree provides a link to a Google document we've created that contains a list of resources. These include groups and scholarships specially for Vietnamese and AAPI students. Our linktree also provides a book list VSA has made as a club!</p>
+				<a class="linktree" href="https://linktr.ee/ghsvsaclub?utm_source=linktree_profile_share&ltsid=076d6e84-e74c-4460-a171-d0a37d8e5ddc"><img height=30px src="img/linktree.png"><p><b>LINKTREE</b></p></a>
+			</div>
+		</div>
+		
+		<div class="bottom">
+			<h1>Our club was founded in XXXX. Here are a few photos from our previous years' VSA meetings.</h1>
+			<h3>GALLERY</h3>
+			<div class="gallery">
+				<div class="img" id="one"><p>June 10, 2019</p></div>
+				<div class="img" id="two"><p>June 12, 2019</p></div>
+				<div class="img" id="three"><p>December 16, 2019</p></div>
+				<div class="img" id="four"><p>January 24, 2020</p></div>
+				<div class="img" id="five"><p>February 3, 2020</p></div>
+				<div class="img" id="six"><p>February 2, 2022</p></div>
+			</div>
+		</div>
+		
+		<div class="credits">
+			<p>Garfield High School, 400 23rd Ave, Seattle, WA 98122</p>
+			<p>The Vietnamese Student Association - April 22, 2022</p>
+		</div>
+	</body>
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Open+Sans:wght@300&family=Roboto&family=Ubuntu:wght@300&display=swap'); 
+	
+	body {
+		background-color: #1c110a;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	/*                  */
+	/* TOP PART OF SITE */
+	/*                  */
+	.top {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 100px;
+	}
+	
+	.top > h1 {
+		margin-top: 100px;
+		font-family: 'Merriweather', serif;
+		color: #E9B44C;
+		font-size: 72px;
+	}
+	
+	.top > h2 {
+		font-family: 'Ubuntu', sans-serif;
+		color: #E9B44C;
+		font-size: 20px;
+	}
+	
+	#pfp {
+		border-radius: 50%;
+		width: 386px;
+	}
+	
+	#about {
+		font-size: 16px;
+		font-family: 'Open Sans', sans-serif;
+		color: #E4D6A7;
+		text-align: center;
+		margin-right: 200px;
+		margin-left: 200px;
+		line-height: 1.8;
+	}
+	
+	.icon {
+		margin: 10px;
+	}
+	
+	.icon:hover {
+		transform: scale(1.08);
+		animation: wob .5s linear infinite;
+		transition: 0.5s;
+	}
+	
+	/*                     */
+	/* TOP END             */
+	/*                     */
+	
+	
+	/*                     */
+	/* MIDDLE PART OF SITE */
+	/*                     */
+	
+	.middle {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		width: 1200px;
+	}
+	
+	.boxes {
+		width: 555px;
+		
+	}
+	
+	#meetings > h1 {
+		color: #9B2915;
+		font-size: 48px;
+		font-family: 'Merriweather', serif;
+	}
+	
+	#meetings > h2 {
+		letter-spacing: 4px;
+		font-size: 18px;
+		color: #f6c0b6;
+		font-family: 'Roboto', sans-serif;
+	}
+	
+	#resources > h2 {
+		color: #9b2915;
+		font-family: 'Ubuntu', sans-serif;
+		font-size: 40px;
+		line-height: 1.4;
+	}
+	
+	#resources > p {
+		color: #f6c0b6;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 18px;
+		line-height: 2;
+	}
+	
+	.linktree {
+		margin-top: 75px;
+		display: flex;
+		flex-direction: row;
+		background-color: #f6c0b6;
+		border-radius: 100px;
+		border: 2px #9b2915 solid;
+		width: 155px;
+		text-decoration: none;
+		color: #9b2915;
+		letter-spacing: 2px;
+		font-size: 17px;
+	}
+	
+	.linktree > img {
+		padding: 10px;
+	}
+	
+	.linktree > p {
+		font-family: 'Roboto', sans-serif;
+	}
+	
+	.linktree:hover {
+		transform: scale(1.08);
+		animation: wob .5s linear infinite;
+		transition: 0.5s;
+	}
+	
+	/*                     */
+	/* MIDDLE END          */
+	/*                     */
+	
+	
+	/*                     */
+	/* BOTTOM PART OF SITE */
+	/*                     */
+	
+	.bottom {
+		margin-top: 100px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 1200px;
+		text-align: center;
+		margin-bottom: 70px;
+		
+	}
+	
+	.bottom > h1 {
+		font-family: 'Merriweather', serif;
+		color: #E9B44C;
+		font-size: 48px;
+	}
+	
+	.bottom > h3 {
+		margin-top: 10px;
+		color: #E9B44C;
+		font-size: 25px;
+		font-family: 'Ubuntu', sans-serif;
+	}
+	
+	.gallery {
+		display: flex;
+		width: 1400px;
+		flex-wrap: wrap;
+		justify-content: center;
+		text-align: center;
+	}
+	
+	.img {
+		width: 350px;
+		height: 350px;
+		margin: 20px;
+		border-radius: 50px;
+		color: transparent;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 20px;
+	}
+	
+	.img:hover {
+		color: #E4D6A7;
+		transition: all 0.3s ease 0s;
+	}
+	
+	#one {
+		background: url(img/1.png);
+		background-size: cover;
+	}
+	
+	#one:hover {
+		background: rgba(0, 0, 0, .4) url(img/1.png);
+		background-blend-mode: darken;
+		transition: all 0.3s ease 0s;
+		background-size: cover;
+	}
+	
+	#two {
+		background: url(img/2.png);
+		background-size: cover;
+	}
+	
+	#two:hover {
+		background: rgba(0, 0, 0, .4) url(img/2.png);
+		background-blend-mode: darken;
+		transition: all 0.3s ease 0s;
+		background-size: cover;
+	}
+	
+	#three {
+		background: url(img/3.png);
+		background-size: cover;
+	}
+	
+	#three:hover {
+		background: rgba(0, 0, 0, .4) url(img/3.png);
+		background-blend-mode: darken;
+		transition: all 0.3s ease 0s;
+		background-size: cover;
+	}
+	
+	#four {
+		background: url(img/4.png);
+		background-size: cover;
+	}
+	
+	#four:hover {
+		background: rgba(0, 0, 0, .4) url(img/4.png);
+		background-blend-mode: darken;
+		transition: all 0.3s ease 0s;
+		background-size: cover;
+	}
+	
+	#five {
+		background: url(img/5.png);
+		background-size: cover;
+	}
+	
+	#five:hover {
+		background: rgba(0, 0, 0, .4) url(img/5.png);
+		background-blend-mode: darken;
+		transition: all 0.3s ease 0s;
+		background-size: cover;
+	}
+	
+	#six {
+		background: url(img/6.png);
+		background-size: cover;
+	}
+	
+	#six:hover {
+		background: rgba(0, 0, 0, .4) url(img/6.png);
+		background-blend-mode: darken;
+		transition: all 0.3s ease 0s;
+		background-size: cover;
+	}
+	
+	/*                     */
+	/* BOTTOM END         */
+	/*                     */
+	
+	.credits {
+		text-align: center;
+		color: #f6c0b6;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 12px;
+		line-height: 2px;
+	}
+</style>
+
+</html>
